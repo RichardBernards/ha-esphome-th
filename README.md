@@ -44,3 +44,14 @@ DHT-11 GND (4) ------------------------------------ GND
 ```
 
 ## Installing using esphome cli
+Installing esphome:
+```
+pip3 install wheel
+pip3 install esphome
+```
+
+Flashing ESP-01S through USB:
+```
+esphome run ./th.yaml
+```
+When asked, choose the desired COM-port to start flashing.
